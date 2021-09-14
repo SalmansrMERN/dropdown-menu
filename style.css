@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background: url(images/pexels-pixabay-460680.jpg);
+
+
+}
+
+.wrapper {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.wrapper ul {
+    list-style: none;
+    margin: 2%;
+}
+
+.wrapper ul li {
+    background: #262626;
+    width: 170px;
+    height: 50px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    float: left;
+}
+
+.wrapper ul li:hover {
+    background: crimson;
+}
+
+.wrapper ul ul {
+    display: none;
+}
+
+.wrapper ul li:hover ul {
+    display: block;
+}
+
+.wrapper ul ul ul {
+    margin-left: 170px;
+    top: 0;
+    position: absolute;
+}
